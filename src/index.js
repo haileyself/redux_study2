@@ -13,3 +13,6 @@ render(
   </Provider>,
   document.getElementById("root")
 );
+
+//react index.js 파일에 store 를 생성한다.
+// react redux에서 provider도 가져온다
