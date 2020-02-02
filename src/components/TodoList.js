@@ -12,6 +12,8 @@ const TodoList = ({ todos, toggleTodo }) => (
 
 //todos는 reducer
 //case에  따라 새로운 state값 return 
+// Todo 컴포넌트에 todos 수만큼 key값주고, onclick이벤트 일어날 시, toggleTodo action creator 호출
+// 해당 값 호출되면 toogle_todo type return
 
 TodoList.propTypes = {
   todos: PropTypes.arrayOf(

@@ -1,6 +1,6 @@
 import { VisibilityFilters } from '../actions';
 
-const VisibilityFilter = (state = VisibilityFilters.SHOW_ALL, action) => {
+const visibilityFilter = (state = VisibilityFilters.SHOW_ALL, action) => {
   switch(action.type) {
   case 'SET_VISIBLITY_FILTER' :
       return action.filter
@@ -9,7 +9,7 @@ const VisibilityFilter = (state = VisibilityFilters.SHOW_ALL, action) => {
       }
  }
 
- export default VisibilityFilter;
+ export default visibilityFilter;
 
  //state default값으로  'SHOW_ALL'을 줌 
 //action type이 'SET_VISIBLITY_FILTER 이면, action.filter 를 리턴 

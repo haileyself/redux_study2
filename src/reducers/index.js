@@ -1,10 +1,10 @@
 import {combineReducers} from 'redux';
 import todos from './todos';
-import visiblityFilter from './visibilityFilter';
+import visibilityFilter from './visibilityFilter';
 
 export default combineReducers({
   todos,
-  visiblityFilter
+  visibilityFilter
 });
 
 // todos만 쓴 이유는 es6 비구조화할당
